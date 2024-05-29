@@ -50,7 +50,7 @@ export default function AfterLoginLayout({
               </form>
             </div>
             <TrendSection />
-            <div>
+            <div className={styles.followRecommend}>
               <h3>팔로우 추천</h3>
               <FollowRecommend />
               <FollowRecommend />
